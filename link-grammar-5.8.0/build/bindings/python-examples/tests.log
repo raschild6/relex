@@ -1,0 +1,33 @@
+Running by: /usr/bin/python3
+Running ../../../bindings/python-examples/tests.py in: /home/michele/OpenCog_ALL/relex/link-grammar-5.8.0/build/bindings/python-examples
+PYTHONPATH=../../../bindings/python-examples/../python:../python:../python/.libs
+srcdir=../../../bindings/python-examples
+LINK_GRAMMAR_DATA=../../../bindings/python-examples/../../data
+Compiled with: gcc __VERSION__="7.5.0" 
+OS: linux-gnu __unix__ 
+Standards: __STDC_VERSION__=201112L
+Configuration (source code):
+	CPPFLAGS=
+	CFLAGS=-D_DEFAULT_SOURCE -std=c11 -D_BSD_SOURCE -D_SVID_SOURCE -D_GNU_SOURCE -D_ISOC11_SOURCE -g -O2 -O3
+Configuration (features):
+	DICTIONARY_DIR=/usr/local/share/link-grammar
+	-DPACKAGE_NAME="link-grammar" -DPACKAGE_TARNAME="link-grammar" -DPACKAGE_VERSION="5.8.0" -DPACKAGE_STRING="link-grammar 5.8.0" -DPACKAGE_BUGREPORT="https://github.com/opencog/link-grammar" -DPACKAGE_URL="https://www.abisource.com/projects/link-grammar" -DPACKAGE="link-grammar" -DVERSION="5.8.0" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=".libs/" -DHAVE_STRNDUP=1 -DHAVE_STRTOK_R=1 -DHAVE_ALIGNED_ALLOC=1 -DHAVE_POSIX_MEMALIGN=1 -DHAVE_ALLOCA_H=1 -DHAVE_ALLOCA=1 -DHAVE_FORK=1 -DHAVE_VFORK=1 -DHAVE_WORKING_VFORK=1 -DHAVE_WORKING_FORK=1 -DHAVE_PRCTL=1 -D__STDC_FORMAT_MACROS=1 -D__STDC_LIMIT_MACROS=1 -DTLS=_Thread_local -DHAVE_LOCALE_T_IN_LOCALE_H=1 -DHAVE_STDATOMIC_H=1 -DHAVE_MKLIT=1 -DUSE_SAT_SOLVER=1 -DUSE_WORDGRAPH_DISPLAY=1 -DHAVE_SQLITE=1 -DHAVE_REGEX_H=1 -DHAVE_REGEXEC=1 -DHAVE_MAYBE_UNINITIALIZED=1 -DHAVE_DECL_STRERROR_R=1 -DHAVE_STRERROR_R=1 -DSTRERROR_R_CHAR_P=1
+Using <module 'linkgrammar' from '/home/michele/OpenCog_ALL/relex/link-grammar-5.8.0/bindings/python/linkgrammar.py'>
+Using <module 'clinkgrammar' from '/home/michele/OpenCog_ALL/relex/link-grammar-5.8.0/bindings/python/clinkgrammar.py'>
+Using <module '_clinkgrammar' from '/home/michele/OpenCog_ALL/relex/link-grammar-5.8.0/build/bindings/python/.libs/_clinkgrammar.so'>
+Using <module 'lg_testutils' from '/home/michele/OpenCog_ALL/relex/link-grammar-5.8.0/bindings/python-examples/lg_testutils.py'>
+...............................s..................................s....s.Debug: Dictionary "he/4.0.dict": Locale "he_IL.UTF-8" unknown
+link-grammar: Info: Dictionary 'he/4.0.dict': No locale definition - "it_IT.UTF-8" will be used.
+.Debug: Dictionary "ru/4.0.dict": Locale "ru_RU.UTF-8" unknown
+link-grammar: Info: Dictionary 'ru/4.0.dict': No locale definition - "it_IT.UTF-8" will be used.
+.ssDebug: Dictionary "de/4.0.dict": Locale "de_DE.UTF-8" unknown
+link-grammar: Info: Dictionary 'de/4.0.dict': No locale definition - "it_IT.UTF-8" will be used.
+............Debug: Dictionary "lt/4.0.dict": Locale "lt_LT.UTF-8" unknown
+link-grammar: Info: Dictionary 'lt/4.0.dict': No locale definition - "it_IT.UTF-8" will be used.
+.Debug: Dictionary "ru/4.0.dict": Locale "ru_RU.UTF-8" unknown
+link-grammar: Info: Dictionary 'ru/4.0.dict': No locale definition - "it_IT.UTF-8" will be used.
+.....
+----------------------------------------------------------------------
+Ran 93 tests in 5.419s
+
+OK (skipped=5)

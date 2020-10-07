@@ -1,0 +1,6 @@
+lg_readline.o: ../../link-parser/lg_readline.c /usr/include/stdc-predef.h \
+ ../../link-parser/lg_readline.h
+
+/usr/include/stdc-predef.h:
+
+../../link-parser/lg_readline.h:

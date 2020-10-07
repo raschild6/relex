@@ -1,0 +1,6 @@
+link-grammar: Info: Dictionary found at ../../data/en/4.0.dict
+link-grammar: Info: Dictionary found at ../../data/ru/4.0.dict
+Debug: Dictionary "ru/4.0.dict": Locale "ru_RU.UTF-8" unknown
+link-grammar: Info: Dictionary 'ru/4.0.dict': No locale definition - "it_IT.UTF-8" will be used.
+Creating 10 threads, each parsing 500 sentences
+Done with multi-threaded parsing

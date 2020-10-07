@@ -1,0 +1,4 @@
+tokenize/spellcheck-hun.lo: ../../link-grammar/tokenize/spellcheck-hun.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

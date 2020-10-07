@@ -17,7 +17,7 @@
 sudo apt-get -y update 
 sudo apt-get -y install build-essential python-dev swig zlib1g-dev unzip wget
 sudo apt-get -y install wordnet-dev wordnet-sense-index
-sudo apt-get -y install openjdk-9-jdk 
+sudo apt-get -y install openjdk-11-jdk 
 sudo apt-get -y install maven
 
 # Link Grammar
@@ -26,7 +26,7 @@ tar -xvf link-grammar-5.*.tar.gz
 rm link-grammar-5.*.tar.gz*
 rm -rf index.html* robots.txt
 pushd link-grammar-5.*
-JAVA_HOME=/usr/lib/jvm/java-9-openjdk-amd64  ./configure 
+JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64  ./configure 
 make -j6
 sudo make install
 sudo ln -v -s /usr/local/lib/liblink-grammar.so.5 /usr/lib/liblink-grammar.so.5
@@ -43,10 +43,10 @@ if grep -q '^vagrant:' /etc/passwd; then
 fi
 
 sudo -u $MVN_USER mvn install:install-file \
-   -Dfile=$LINKGRAMMAR_JAR \
+   -Dfile=/usr/local/share/java/linkgrammar-5.8.0.jar \
    -DgroupId=org.opencog \
    -DartifactId=linkgrammar \
-   -Dversion=$LINKGRAMMAR_VERSION \
+   -Dversion=5.8.0 \
    -Dpackaging=jar
 
 # RelEx

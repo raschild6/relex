@@ -1,0 +1,7 @@
+fast-sprintf.lo: ../../../link-grammar/sat-solver/fast-sprintf.cpp \
+ /usr/include/stdc-predef.h \
+ ../../../link-grammar/sat-solver/fast-sprintf.hpp
+
+/usr/include/stdc-predef.h:
+
+../../../link-grammar/sat-solver/fast-sprintf.hpp:

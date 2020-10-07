@@ -1,0 +1,3 @@
+configure.ac:57: installing './compile'
+configure.ac:40: installing './missing'
+bindings/java-jni/Makefile.am: installing './depcomp'
